@@ -5,8 +5,7 @@ import { toggleLoader, getProductImageDetail } from "../utls/index.js";
 async function initializeProductDetail() {
   try {
     new Header();
-
-    const footerContainer = document.body
+    new Footer(document.body);
     const urlParams = new URLSearchParams(window.location.search);
     const productId = urlParams.get("id");
 
@@ -55,7 +54,6 @@ async function initializeProductDetail() {
     };
 
     await fetchProduct();
-    new Footer(footerContainer);
   } catch (error) {
     console.error("Error al inicializar la aplicación:", error);
   }
