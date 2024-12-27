@@ -1,0 +1,28 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa;
+  box-sizing: content-box;
+}
+
+
+.review-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.review-author {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.review-date {
+  color: #888;
+  font-size: 0.8em;
+}
+
+.review-text {
+  margin-top: 10px;
+}
