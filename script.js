@@ -68,7 +68,7 @@ async function initializeApp() {
         const cardElement = productCard.querySelector(".product-card");
         if (cardElement) {
           cardElement.addEventListener("click", () => {
-            window.location.href = `./product-detail/product.html?id=${product.id}`;
+            window.location.href = `./product-detail/product-detail.html?id=${product.id}`;
           });
         }
 
